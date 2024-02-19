@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+.font-Raleway
+{
+    font-family: "Raleway", sans-serif;
+}
+.conatiner
+{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.offer
+{
+    flex-wrap: wrap !important;
+}
+.seat
+{
+    width: 110px;
+    height: 56px;
+    background: #e5e5e5;
+    text-align: center;
+    color: rgba(3, 7, 18, 0.50);
+
+ 
+font-family: Inter;
+font-size: 18px;
+
+font-weight: 500;
+cursor: pointer;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+}
