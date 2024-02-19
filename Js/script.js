@@ -130,7 +130,7 @@ applyButton.addEventListener('click', function () {
 
   const couponCode = document.getElementById('coupon-input-field');
 
-  const couponText = couponCode.value.split(' ').join('').toUpperCase();
+  const couponText = couponCode.value;
 
 
 
@@ -151,7 +151,7 @@ applyButton.addEventListener('click', function () {
 
 
     }
-    else if (couponText === 'COUPLE20') {
+    else if (couponText === 'Couple 20') {
       const grandTotal1 = document.getElementById('grand-total');
 
       const discount = document.getElementById('total-discount');
