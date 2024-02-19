@@ -200,6 +200,6 @@ function purchesConfirm() {
     alert('Please Select an Item.')
   }
 }
-function allClose() {
-  location.reload()
-  }
+function allClose(){
+  location.reload();
+}
