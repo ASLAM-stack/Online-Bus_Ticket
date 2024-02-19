@@ -123,7 +123,6 @@ function setInnerTextById(elementId, value) {
 
 
 
-
 const applyButton = document.getElementById('apply-button');
 applyButton.addEventListener('click', function () {
 
@@ -201,39 +200,3 @@ function purchesConfirm() {
     alert('Please Select an Item.')
   }
 }
-
-// function allClose() {
-//   document.getElementById('total-price').innerText = '0';
-//   document.getElementById('grand-total').innerText = '0';
-//   document.getElementById('total-discount').innerText = '0';
-//   document.getElementById('seat-count').innerText = '0';
-//   document.getElementById('seat-added').innerText = '';
-//   document.getElementById('input-mobile').value = '';
-
-
-//   hideElementById('discount-hidden');
-//   hideElementById('seat-added');
-// }
-
-
-
-
-// const title = card.querySelector('h3').innerText;
-
-// const price = card.querySelector('span').innerText.split(' ')[1];
-
-// const itemsContainer = document.getElementById('title-container');
-
-// const p = document.createElement('p');
-// p.innerText = count + '.' + title + ':' + price;
-
-// itemsContainer.appendChild(p);
-
-// const totalPrice1 = document.getElementById('totalPrice');
-
-// totalPrice = totalPrice + parseFloat(price);
-
-// totalPrice1.innerText = totalPrice;
-
-// const total = document.getElementById('total');
-// total.innerText = totalPrice;
